@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav" id="dropdownClick">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="topnav-right"><a href="login.html">LogIn</a></li>
+                <li class="topnav-right"><a href="signup.html">Sign Up</a></li>
+                <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776</a></li>
+            </ul>
+        </nav>
+       	
+
+<form action="#" method="post">
+  <h2>Sign Up</h2>
+		<p>
+			<label for="Email" class="floatLabel">Email</label>
+			<input id="Email" name="Email" type="text">
+		</p>
+		<p>
+			<label for="password" class="floatLabel">Password</label>
+			<input id="password" name="password" type="password">
+			<span>Enter a password longer than 8 characters</span>
+		</p>
+		<p>
+			<label for="confirm_password" class="floatLabel">Confirm Password</label>
+			<input id="confirm_password" name="confirm_password" type="password">
+			<span>Your passwords do not match</span>
+		</p>
+		<p>
+			<input type="submit" value="Create My Account" id="submit">
+		</p>
+	</form>
+    </body>
+</html>
